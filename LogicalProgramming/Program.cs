@@ -7,6 +7,7 @@ namespace LogicalProgramming
         /// <summary>
         /// P1 - Printing the fibonacci series
         /// P2 - Checking the number is perfect number or not
+        /// P3 - Printing the prime number series between  to N
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -15,6 +16,7 @@ namespace LogicalProgramming
             Console.WriteLine("Choose the program:");
             Console.WriteLine("1 - Fibonacci Series");
             Console.WriteLine("2 - Perfect Number");
+            Console.WriteLine("3 - Prime Number Series");
 
             //Read choice from the user
             Console.WriteLine("Enter Your choice:");
@@ -32,6 +34,12 @@ namespace LogicalProgramming
                 case 2:
                     PerfectNumber perfectNumber = new PerfectNumber();
                     perfectNumber.ReadInput();
+                    break;
+
+                //creating object for prime number and invoke the method 
+                case 3:
+                    PrimeNumberSeries prime = new PrimeNumberSeries();
+                    prime.ReadInput();
                     break;
 
                 default:
