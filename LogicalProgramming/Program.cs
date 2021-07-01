@@ -10,10 +10,7 @@ namespace LogicalProgramming
         /// P3 - Printing the prime number series between  to N
         /// P4 - Reversing the number
         /// P5 - Generating 10 distinct coupon
-<<<<<<< HEAD
-=======
         /// P6 - Executing the stop watch program
->>>>>>> origin/P6-StopWatch
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -56,13 +53,8 @@ namespace LogicalProgramming
                     ReverseNumber reverse = new ReverseNumber();
                     reverse.ReadInput();
                     break;
-<<<<<<< HEAD
                 
-                //Generating distinct coupons
-=======
-
-                //generating 10 distinct coupon
->>>>>>> origin/P6-StopWatch
+                //Generating distinct coupon
                 case 5:
                     CouponNumber.GenerateCoupon();
                     break;
