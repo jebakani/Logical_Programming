@@ -9,6 +9,7 @@ namespace LogicalProgramming
         /// P2 - Checking the number is perfect number or not
         /// P3 - Printing the prime number series between  to N
         /// P4 - Reversing the number
+        /// P5 - Generating 10 distinct coupon
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -50,7 +51,8 @@ namespace LogicalProgramming
                     ReverseNumber reverse = new ReverseNumber();
                     reverse.ReadInput();
                     break;
-
+                
+                //Generating distinct coupons
                 case 5:
                     CouponNumber.GenerateCoupon();
                     break;
