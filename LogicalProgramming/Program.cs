@@ -19,6 +19,7 @@ namespace LogicalProgramming
             Console.WriteLine("2 - Perfect Number");
             Console.WriteLine("3 - Prime Number Series");
             Console.WriteLine("4 - Reverse the number");
+            Console.WriteLine("5 - Generaing Distinct Coupon");
 
             //Read choice from the user
             Console.WriteLine("Enter Your choice:");
@@ -48,6 +49,10 @@ namespace LogicalProgramming
                 case 4:
                     ReverseNumber reverse = new ReverseNumber();
                     reverse.ReadInput();
+                    break;
+
+                case 5:
+                    CouponNumber.GenerateCoupon();
                     break;
 
                 default:
