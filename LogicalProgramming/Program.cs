@@ -9,6 +9,8 @@ namespace LogicalProgramming
         /// P2 - Checking the number is perfect number or not
         /// P3 - Printing the prime number series between  to N
         /// P4 - Reversing the number
+        /// P5 - Generating 10 distinct coupon
+        /// P6 - Executing the stop watch program
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
@@ -20,6 +22,7 @@ namespace LogicalProgramming
             Console.WriteLine("3 - Prime Number Series");
             Console.WriteLine("4 - Reverse the number");
             Console.WriteLine("5 - Generaing Distinct Coupon");
+            Console.WriteLine("6 - Stop Watch");
 
             //Read choice from the user
             Console.WriteLine("Enter Your choice:");
@@ -51,9 +54,16 @@ namespace LogicalProgramming
                     reverse.ReadInput();
                     break;
 
+                //generating 10 distinct coupon
                 case 5:
                     CouponNumber.GenerateCoupon();
                     break;
+
+                //Executing the stopwatch
+                case 6:
+                    GenerateStopWatch.ReadInput();
+                    break;
+
 
                 default:
                     break;
