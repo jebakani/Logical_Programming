@@ -13,10 +13,15 @@ namespace LogicalProgramming
 		public static void ReadInput()
         {
 
+            //creating object for class stopwatch
             Stopwatch stopWatch = new Stopwatch();
             Console.WriteLine("Enter 1 to start the stopwatch and 0 to stop the stopwatch:");
+
+            //read inpt from user
             int choice = Convert.ToInt32(Console.ReadLine());
             int iter = choice;
+
+            //to run stop watch for particular period of time 
             while (iter == 1)
             {
                 switch (choice)
